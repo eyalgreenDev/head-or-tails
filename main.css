@@ -1,0 +1,29 @@
+body{
+    text-align:center;
+    margin:20px;
+    background-color:#333;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color:white;
+}
+
+img{
+    max-width:300px;
+    margin-top:20px;
+    transition:transform 0.5s ease-in-out;
+}
+.rotate{
+    transform:rotate(360deg);
+}
+button{
+    font-size:16px;
+    padding:10px 20px;
+    margin-top:20px;
+    cursor:pointer;
+}
+#result{
+    font-size:24px;
+    margin-top:20px;
+}
